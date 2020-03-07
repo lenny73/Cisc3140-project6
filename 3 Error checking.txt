@@ -1,0 +1,4 @@
+The Scheme must check errors automatically. You only need to do your own checking of the number of arguments if you define the procedure to take spread arguments, i.e.
+
+(define (thirds . args)
+  ...)
